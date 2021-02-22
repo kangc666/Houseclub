@@ -27,3 +27,9 @@ jobs:
             ./gradlew clean assembleDebug --no-daemon --stacktrace
             cd Houseclub
             ls -l
+    
+    - name: Upload result for job
+      uses: actions/upload-artifact@v1
+      with:
+          name: Houseclub
+          path: Houseclub/build
