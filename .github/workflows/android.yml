@@ -23,5 +23,5 @@ jobs:
       run: | 
             gradle init
             #xxxxx
-            gradlew build
+            ./gradlew build
             ls -l
