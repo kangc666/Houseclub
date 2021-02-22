@@ -25,5 +25,5 @@ jobs:
       run: | 
             gradle init
             #xxxxx
-            ./gradlew build
+            ./gradlew clean assembleDebug --no-daemon --stacktrace
             ls -l
