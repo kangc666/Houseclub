@@ -22,4 +22,6 @@ jobs:
     - name: Build with Gradle
       run: | 
             gradle init
+            #xxxxx
+            gradlew build
             ls -l
